@@ -1,0 +1,200 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 0 0 384 512)
+	(text "HwJSoC" (rect 168 -1 203 11)(font "Arial" (font_size 10)))
+	(text "inst" (rect 8 496 20 508)(font "Arial" ))
+	(port
+		(pt 0 72)
+		(input)
+		(text "clk_clk" (rect 0 0 27 12)(font "Arial" (font_size 8)))
+		(text "clk_clk" (rect 4 61 46 72)(font "Arial" (font_size 8)))
+		(line (pt 0 72)(pt 160 72)(line_width 1))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "reset_reset_n" (rect 0 0 56 12)(font "Arial" (font_size 8)))
+		(text "reset_reset_n" (rect 4 101 82 112)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 160 112)(line_width 1))
+	)
+	(port
+		(pt 0 480)
+		(input)
+		(text "pll_areset_conduit_export" (rect 0 0 101 12)(font "Arial" (font_size 8)))
+		(text "pll_areset_conduit_export" (rect 4 469 154 480)(font "Arial" (font_size 8)))
+		(line (pt 0 480)(pt 160 480)(line_width 1))
+	)
+	(port
+		(pt 384 72)
+		(output)
+		(text "pll_c2_clk" (rect 0 0 38 12)(font "Arial" (font_size 8)))
+		(text "pll_c2_clk" (rect 333 61 393 72)(font "Arial" (font_size 8)))
+		(line (pt 384 72)(pt 224 72)(line_width 1))
+	)
+	(port
+		(pt 0 152)
+		(output)
+		(text "led_out_export[7..0]" (rect 0 0 79 12)(font "Arial" (font_size 8)))
+		(text "led_out_export[7..0]" (rect 4 141 124 152)(font "Arial" (font_size 8)))
+		(line (pt 0 152)(pt 160 152)(line_width 3))
+	)
+	(port
+		(pt 0 192)
+		(output)
+		(text "sdram_bus_addr[12..0]" (rect 0 0 93 12)(font "Arial" (font_size 8)))
+		(text "sdram_bus_addr[12..0]" (rect 4 181 130 192)(font "Arial" (font_size 8)))
+		(line (pt 0 192)(pt 160 192)(line_width 3))
+	)
+	(port
+		(pt 0 208)
+		(output)
+		(text "sdram_bus_ba[1..0]" (rect 0 0 80 12)(font "Arial" (font_size 8)))
+		(text "sdram_bus_ba[1..0]" (rect 4 197 112 208)(font "Arial" (font_size 8)))
+		(line (pt 0 208)(pt 160 208)(line_width 3))
+	)
+	(port
+		(pt 0 224)
+		(output)
+		(text "sdram_bus_cas_n" (rect 0 0 76 12)(font "Arial" (font_size 8)))
+		(text "sdram_bus_cas_n" (rect 4 213 94 224)(font "Arial" (font_size 8)))
+		(line (pt 0 224)(pt 160 224)(line_width 1))
+	)
+	(port
+		(pt 0 240)
+		(output)
+		(text "sdram_bus_cke" (rect 0 0 66 12)(font "Arial" (font_size 8)))
+		(text "sdram_bus_cke" (rect 4 229 82 240)(font "Arial" (font_size 8)))
+		(line (pt 0 240)(pt 160 240)(line_width 1))
+	)
+	(port
+		(pt 0 256)
+		(output)
+		(text "sdram_bus_cs_n" (rect 0 0 71 12)(font "Arial" (font_size 8)))
+		(text "sdram_bus_cs_n" (rect 4 245 88 256)(font "Arial" (font_size 8)))
+		(line (pt 0 256)(pt 160 256)(line_width 1))
+	)
+	(port
+		(pt 0 288)
+		(output)
+		(text "sdram_bus_dqm[3..0]" (rect 0 0 89 12)(font "Arial" (font_size 8)))
+		(text "sdram_bus_dqm[3..0]" (rect 4 277 118 288)(font "Arial" (font_size 8)))
+		(line (pt 0 288)(pt 160 288)(line_width 3))
+	)
+	(port
+		(pt 0 304)
+		(output)
+		(text "sdram_bus_ras_n" (rect 0 0 75 12)(font "Arial" (font_size 8)))
+		(text "sdram_bus_ras_n" (rect 4 293 94 304)(font "Arial" (font_size 8)))
+		(line (pt 0 304)(pt 160 304)(line_width 1))
+	)
+	(port
+		(pt 0 320)
+		(output)
+		(text "sdram_bus_we_n" (rect 0 0 73 12)(font "Arial" (font_size 8)))
+		(text "sdram_bus_we_n" (rect 4 309 88 320)(font "Arial" (font_size 8)))
+		(line (pt 0 320)(pt 160 320)(line_width 1))
+	)
+	(port
+		(pt 0 360)
+		(output)
+		(text "pll_c1_conduit_export" (rect 0 0 84 12)(font "Arial" (font_size 8)))
+		(text "pll_c1_conduit_export" (rect 4 349 130 360)(font "Arial" (font_size 8)))
+		(line (pt 0 360)(pt 160 360)(line_width 1))
+	)
+	(port
+		(pt 0 400)
+		(output)
+		(text "pll_locked_conduit_export" (rect 0 0 101 12)(font "Arial" (font_size 8)))
+		(text "pll_locked_conduit_export" (rect 4 389 154 400)(font "Arial" (font_size 8)))
+		(line (pt 0 400)(pt 160 400)(line_width 1))
+	)
+	(port
+		(pt 0 440)
+		(output)
+		(text "pll_phasedone_conduit_export" (rect 0 0 119 12)(font "Arial" (font_size 8)))
+		(text "pll_phasedone_conduit_export" (rect 4 429 172 440)(font "Arial" (font_size 8)))
+		(line (pt 0 440)(pt 160 440)(line_width 1))
+	)
+	(port
+		(pt 0 272)
+		(bidir)
+		(text "sdram_bus_dq[31..0]" (rect 0 0 84 12)(font "Arial" (font_size 8)))
+		(text "sdram_bus_dq[31..0]" (rect 4 261 118 272)(font "Arial" (font_size 8)))
+		(line (pt 0 272)(pt 160 272)(line_width 3))
+	)
+	(drawing
+		(text "clk" (rect 145 43 308 99)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "clk" (rect 165 67 348 144)(font "Arial" (color 0 0 0)))
+		(text "reset" (rect 131 83 292 179)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "reset_n" (rect 165 107 372 224)(font "Arial" (color 0 0 0)))
+		(text "pll_c2" (rect 225 43 486 99)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "clk" (rect 209 67 436 144)(font "Arial" (color 0 0 0)))
+		(text "led_out" (rect 118 123 278 259)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 165 147 366 304)(font "Arial" (color 0 0 0)))
+		(text "sdram_bus" (rect 95 163 244 339)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "addr" (rect 165 187 354 384)(font "Arial" (color 0 0 0)))
+		(text "ba" (rect 165 203 342 416)(font "Arial" (color 0 0 0)))
+		(text "cas_n" (rect 165 219 360 448)(font "Arial" (color 0 0 0)))
+		(text "cke" (rect 165 235 348 480)(font "Arial" (color 0 0 0)))
+		(text "cs_n" (rect 165 251 354 512)(font "Arial" (color 0 0 0)))
+		(text "dq" (rect 165 267 342 544)(font "Arial" (color 0 0 0)))
+		(text "dqm" (rect 165 283 348 576)(font "Arial" (color 0 0 0)))
+		(text "ras_n" (rect 165 299 360 608)(font "Arial" (color 0 0 0)))
+		(text "we_n" (rect 165 315 354 640)(font "Arial" (color 0 0 0)))
+		(text "pll_c1_conduit" (rect 80 331 244 675)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 165 355 366 720)(font "Arial" (color 0 0 0)))
+		(text "pll_locked_conduit" (rect 54 371 216 755)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 165 395 366 800)(font "Arial" (color 0 0 0)))
+		(text "pll_phasedone_conduit" (rect 28 411 182 835)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 165 435 366 880)(font "Arial" (color 0 0 0)))
+		(text "pll_areset_conduit" (rect 54 451 216 915)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 165 475 366 960)(font "Arial" (color 0 0 0)))
+		(text " HwJSoC " (rect 345 496 738 1002)(font "Arial" ))
+		(line (pt 161 52)(pt 161 76)(line_width 1))
+		(line (pt 162 52)(pt 162 76)(line_width 1))
+		(line (pt 161 92)(pt 161 116)(line_width 1))
+		(line (pt 162 92)(pt 162 116)(line_width 1))
+		(line (pt 223 52)(pt 223 76)(line_width 1))
+		(line (pt 222 52)(pt 222 76)(line_width 1))
+		(line (pt 161 132)(pt 161 156)(line_width 1))
+		(line (pt 162 132)(pt 162 156)(line_width 1))
+		(line (pt 161 172)(pt 161 324)(line_width 1))
+		(line (pt 162 172)(pt 162 324)(line_width 1))
+		(line (pt 161 340)(pt 161 364)(line_width 1))
+		(line (pt 162 340)(pt 162 364)(line_width 1))
+		(line (pt 161 380)(pt 161 404)(line_width 1))
+		(line (pt 162 380)(pt 162 404)(line_width 1))
+		(line (pt 161 420)(pt 161 444)(line_width 1))
+		(line (pt 162 420)(pt 162 444)(line_width 1))
+		(line (pt 161 460)(pt 161 484)(line_width 1))
+		(line (pt 162 460)(pt 162 484)(line_width 1))
+		(line (pt 160 32)(pt 224 32)(line_width 1))
+		(line (pt 224 32)(pt 224 496)(line_width 1))
+		(line (pt 160 496)(pt 224 496)(line_width 1))
+		(line (pt 160 32)(pt 160 496)(line_width 1))
+		(line (pt 0 0)(pt 384 0)(line_width 1))
+		(line (pt 384 0)(pt 384 512)(line_width 1))
+		(line (pt 0 512)(pt 384 512)(line_width 1))
+		(line (pt 0 0)(pt 0 512)(line_width 1))
+	)
+)

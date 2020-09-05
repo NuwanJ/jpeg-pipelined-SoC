@@ -1,0 +1,87 @@
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+
+# Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Full Version
+# File: C:\Users\Nuwan\Desktop\HwJSoC.csv
+# Generated on: Fri May 15 11:21:33 2020
+
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus II software.
+
+To,Direction,Location,I/O Bank,VREF Group,I/O Standard,Reserved,Current Strength,Slew Rate,Differential Pair
+CLK,Input,PIN_Y2,2,B2_N0,,,,,
+LED[7],Output,PIN_G21,7,B7_N1,,,,,
+LED[6],Output,PIN_G22,7,B7_N2,,,,,
+LED[5],Output,,,,,,,,
+LED[4],Output,,,,,,,,
+LED[3],Output,,,,,,,,
+LED[2],Output,,,,,,,,
+LED[1],Output,,,,,,,,
+LED[0],Output,,,,,,,,
+SDRAM_ADDR[12],Output,,,,,,,,
+SDRAM_ADDR[11],Output,,,,,,,,
+SDRAM_ADDR[10],Output,,,,,,,,
+SDRAM_ADDR[9],Output,,,,,,,,
+SDRAM_ADDR[8],Output,,,,,,,,
+SDRAM_ADDR[7],Output,,,,,,,,
+SDRAM_ADDR[6],Output,,,,,,,,
+SDRAM_ADDR[5],Output,,,,,,,,
+SDRAM_ADDR[4],Output,,,,,,,,
+SDRAM_ADDR[3],Output,,,,,,,,
+SDRAM_ADDR[2],Output,,,,,,,,
+SDRAM_ADDR[1],Output,,,,,,,,
+SDRAM_ADDR[0],Output,,,,,,,,
+SDRAM_BA[1],Output,,,,,,,,
+SDRAM_BA[0],Output,,,,,,,,
+SDRAM_CAS_N,Output,,,,,,,,
+SDRAM_CKE,Output,,,,,,,,
+SDRAM_CLK,Output,,,,,,,,
+SDRAM_CS_N,Output,,,,,,,,
+SDRAM_DQ[31],Bidir,,,,,,,,
+SDRAM_DQ[30],Bidir,,,,,,,,
+SDRAM_DQ[29],Bidir,,,,,,,,
+SDRAM_DQ[28],Bidir,,,,,,,,
+SDRAM_DQ[27],Bidir,,,,,,,,
+SDRAM_DQ[26],Bidir,,,,,,,,
+SDRAM_DQ[25],Bidir,,,,,,,,
+SDRAM_DQ[24],Bidir,,,,,,,,
+SDRAM_DQ[23],Bidir,,,,,,,,
+SDRAM_DQ[22],Bidir,,,,,,,,
+SDRAM_DQ[21],Bidir,,,,,,,,
+SDRAM_DQ[20],Bidir,,,,,,,,
+SDRAM_DQ[19],Bidir,,,,,,,,
+SDRAM_DQ[18],Bidir,,,,,,,,
+SDRAM_DQ[17],Bidir,,,,,,,,
+SDRAM_DQ[16],Bidir,,,,,,,,
+SDRAM_DQ[15],Bidir,,,,,,,,
+SDRAM_DQ[14],Bidir,,,,,,,,
+SDRAM_DQ[13],Bidir,,,,,,,,
+SDRAM_DQ[12],Bidir,,,,,,,,
+SDRAM_DQ[11],Bidir,,,,,,,,
+SDRAM_DQ[10],Bidir,,,,,,,,
+SDRAM_DQ[9],Bidir,,,,,,,,
+SDRAM_DQ[8],Bidir,,,,,,,,
+SDRAM_DQ[7],Bidir,,,,,,,,
+SDRAM_DQ[6],Bidir,,,,,,,,
+SDRAM_DQ[5],Bidir,,,,,,,,
+SDRAM_DQ[4],Bidir,,,,,,,,
+SDRAM_DQ[3],Bidir,,,,,,,,
+SDRAM_DQ[2],Bidir,,,,,,,,
+SDRAM_DQ[1],Bidir,,,,,,,,
+SDRAM_DQ[0],Bidir,,,,,,,,
+SDRAM_DQM[3],Output,,,,,,,,
+SDRAM_DQM[2],Output,,,,,,,,
+SDRAM_DQM[1],Output,,,,,,,,
+SDRAM_DQM[0],Output,,,,,,,,
+SDRAM_RAS_N,Output,,,,,,,,
+SDRAM_WE_N,Output,,,,,,,,
